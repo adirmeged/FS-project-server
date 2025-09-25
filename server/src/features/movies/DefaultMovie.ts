@@ -1,23 +1,23 @@
-import type Type = require("../../Type");
+import type { Movie } from "../../Type";
 
-   const defaultMovie: Type.Movie[] = [
+const defaultMovie: Movie[] = [
   {
     movieId: "12",
     movieName: "Inside Out",
     plot: "i am from the server ",
     movieLength: "2 h 12 m",
-    publicationDate: "2.4.2025",
+    publicationDate: "9.4.2027",
     rating: 8,
     Image: [
       {
-        imagerId:"13",
+        imagerId: "13",
         url: "/images/InsideOutMain.jpeg",
         type: "main",
       },
       {
         imagerId: "14",
         url: "/images/InsideOutSec.jpg",
-        type: "second ",
+        type: "second",
       },
     ],
     genre: ["Comedy", "Action", "Horror"],
@@ -26,16 +26,16 @@ import type Type = require("../../Type");
         contect:
           "During development, Vite assumes thattr so root as base, so you can write code as if you are working with a normal static file server (except way more powerful!). Vite is also capable of handling dependencies that resolve to out-of-root file s  This means the browser supports most of the latest JavaScript and CSS features. For that",
         Title:
-          "ome of mt very good movies amd i thinf we need to see all of the mobie ilue this",
+          "Some of my very good movies and I think we need to see all of the movie like this",
         publicationDate: "20 feb 2024",
         rating: 10,
         userName: "userName",
       },
       {
         contect:
-          "hi mt  anme is adir and i very kicc Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
+          "hi my name is adir and I very kick. Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
         Title:
-          "ome of mt very good movies amd i thinf we need to see all of the mobie ilue this",
+          "Some of my very good movies and I think we need to see all of the movie like this",
         publicationDate: "20 feb 2024",
         rating: 10,
         userName: "userName",
@@ -59,24 +59,24 @@ import type Type = require("../../Type");
       {
         imagerId: "17",
         url: "/images/MissionImpossibleSec.jpg",
-        type: "second ",
+        type: "second",
       },
     ],
     review: [
       {
         contect:
-          "hi mt  anme is adir and i very kicc Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
+          "hi my name is adir and I very kick. Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
         Title:
-          "ome of mt very good movies amd i thinf we need to see all of the mobie ilue this",
+          "Some of my very good movies and I think we need to see all of the movie like this",
         publicationDate: "20 feb 2024",
         rating: 10,
         userName: "userName",
       },
       {
         contect:
-          "hi mt  anme is adir and i very kicc Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
+          "hi my name is adir and I very kick. Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
         Title:
-          "ome of mt very good movies amd i thinf we need to see all of the mobie ilue this",
+          "Some of my very good movies and I think we need to see all of the movie like this",
         publicationDate: "20 feb 2024",
         rating: 10,
         userName: "userName",
@@ -91,18 +91,18 @@ import type Type = require("../../Type");
     review: [
       {
         contect:
-          "hi mt  anme is adir and i very kicc Use w-<number> utilihi mt  anme is adir and i very kicc Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
+          "hi my name is adir and I very kick. Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
         Title:
-          "ome of mt very good movies amd i thinf we need to see all of the mobie ilue this",
+          "Some of my very good movies and I think we need to see all of the movie like this",
         publicationDate: "20 feb 2024",
         rating: 10,
         userName: "userName",
       },
       {
         contect:
-          "hi mt  anme is adir and i very kicc Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
+          "hi my name is adir and I very kick. Use w-<number> utilities like w-24 and w-64 to set an element to a fixed width based on the spacing scale:",
         Title:
-          "ome of mt very good movies amd i thinf we need to see all of the mobie ilue this",
+          "Some of my very good movies and I think we need to see all of the movie like this",
         publicationDate: "20 feb 2024",
         rating: 10,
         userName: "userName",
@@ -120,12 +120,11 @@ import type Type = require("../../Type");
       {
         imagerId: "20",
         url: "/images/freeSolisecond.jpg",
-        type: "second ",
+        type: "second",
       },
     ],
   },
+  
 ];
 
-module.exports ={
-  defaultMovie,
-};
+export default { defaultMovie };
